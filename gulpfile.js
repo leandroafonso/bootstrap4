@@ -4,7 +4,7 @@ var sass        = require('gulp-sass');
 
 //compilar SASS
 gulp.task('sass',function(){
-        return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
+        return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss','node_modules/font-awesome/scss/font-awesome.scss', 'src/scss/*.scss'])
         .pipe(sass())
         .pipe(gulp.dest("src/css"))
         .pipe(browserSync.stream());

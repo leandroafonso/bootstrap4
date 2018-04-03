@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Leandro Afonso",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.23.6",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.1"
   }
